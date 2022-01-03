@@ -1,0 +1,116 @@
+body {
+	background-image: url("safra.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+h1 {color: #3B4754}
+
+h1 {letter-spacing: 6px}
+
+h1 {font-family: "Lato", sans-serif}
+
+p  {color: white}
+
+p  {font-family: "Lato", sans-serif}
+
+p  {font-size: 110%}
+
+#p01 {color: white}
+
+#p02 {color: black}
+
+a  {font-family: "Lato", sans-serif}
+
+textarea {font-family: "Lato", sans-serif}
+
+.button {
+	opacity: 0.8;
+	border: none;
+	color: white;
+	padding: 13px 36px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #2E86AB;
+}
+	
+.button:hover {background-color: #3B4754;}
+
+	
+.box {
+	background-color: #e0e0d1;
+	opacity: 0.7;
+	width: 1200px;
+	padding: 25px;
+	margin: 25px;
+	height: 95px;
+}
+
+.bottomright {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	font-size: 18px;
+}
+.topright {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+}
+
+.input {
+	width: 100%;
+}
+.bottomleft {
+	position: absolute;
+	bottom: 50px;
+	left: 16px;
+	font-size: 18px;
+}
+.fixed {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 3%;
+	right: 0;
+	left: 0;
+}
+.footer {
+	padding: 0.5em;
+	color: white;
+	background-color: #3B4754;
+	clear: left;
+	text-align: left;
+	font-family: "Lato", sans-serif;
+}
+.transbox {
+	opacity: 0.8;
+}
+#myProgress {
+    width: 360px;
+    background-color: black;
+	opacity: 0.8;
+	text-align: center;
+	display: inline-block;
+}
+
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #2E86AB;
+	font-family: "Lato", sans-serif;	
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+	text-align: center;
+	display: inline-block;
+}

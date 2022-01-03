@@ -1,0 +1,89 @@
+h2{
+	font-family: Lato;
+	margin-left: 355px;
+	margin-top: -80px;
+	color: #3B4754;
+}
+
+.profile{
+	margin-left: 245px;
+	margin-top: -20px;
+	border-radius: 50%;
+}
+
+.buttonnew{
+	margin-left: 245px;
+	margin-top: 10px;
+	border: none;
+	color: white;
+	padding: 13px 36px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #3B4754;
+}
+
+.buttonnew:hover {background-color: #779CAB;}
+
+.form{
+	font-family: Lato;
+	margin-left: 245px;
+	margin-top: 30px;
+}
+
+.button {
+	opacity: 0.8;
+	border: none;
+	color: white;
+	padding: 13px 36px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #3B4754;
+}
+	
+.button:hover {background-color: #779CAB;}
+
+.box {
+	width: 200px;
+	height: 25px;
+	border-style: : 5px #3B4754;
+}
+
+.combo{
+	border: none;
+	width: 150px;
+	height: 30px;	
+}
+
+.grid-container {
+	margin-left: 235px;
+	margin-right: 5px;
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	background-color: #CEE5F2;
+	padding: 5px;
+}
+.grid-header {
+	background-color: #3B4754;
+	font-family: Lato;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	padding: 9px;
+}
+
+.grid-item {
+	background-color: #CEE5F2;
+	border: 1.5px solid #3B4754;
+	padding: 2px;
+	font-family: Lato;
+	font-size: 20px;
+	text-align: center;
+}
